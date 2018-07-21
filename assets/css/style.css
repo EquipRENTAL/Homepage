@@ -3,7 +3,7 @@
 :root {
     --dark: #333;
     --light: #ddd;
-    --blue: rgb(11, 129, 165);
+    --blue: rgb(0, 8, 121);
     --orange: goldenrod;
 }
 
@@ -68,8 +68,8 @@ footer {
 }
 
 .section-1 {
-    font-family: 'Varela', sans-serif;
-    background-color: rgb(40, 123, 126);
+    font-family: 'Zilla Slab', serif;;
+    background-color: rgb(38, 29, 117);
     color: goldenrod;
     text-align: center;
 }
@@ -93,11 +93,11 @@ footer {
 }
 
 .section-2 {
-    background-color: rgb(54, 95, 54);
+    background-color: rgba(221, 91, 51, 0.856);
 }
 
 .section-3 {
-    background-color: rgb(87, 87, 87);
+    background-color: rgba(87, 87, 87, 0.856);
 }
 
 .section-4 {
@@ -140,6 +140,10 @@ footer {
 
 /* Parallax containers */
 
+.container--small {
+	height: 80vh;
+}
+
 .parallax__container {
     clip: rect(0, auto, auto, 0);
     height: 100%;
@@ -170,7 +174,12 @@ footer {
 }
 
 .info-section h1 {
-    color: var(--blue);
+    color: #ddd;
+    font-size: 80px;
+    font-style: bold;
+    font-family: 'Cabin Sketch', cursive;
+    background-color: rgba(0, 0, 0, 0.459);
+    display: inline;
 }
 
 .info-section h4 {
@@ -252,7 +261,7 @@ footer {
 
     .headline {
         grid-area: headline;
-        background-color: rgba(121, 35, 161, 0.678);
+        background-color: rgba(133, 10, 10, 0.726);
         position: unset;
     }
 
