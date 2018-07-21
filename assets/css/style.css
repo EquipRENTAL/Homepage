@@ -69,7 +69,7 @@ footer {
 
 .section-1 {
     font-family: 'Varela', sans-serif;
-    background-color: rgb(129, 90, 58);
+    background-color: rgb(40, 123, 126);
     color: goldenrod;
     text-align: center;
 }
@@ -182,7 +182,7 @@ footer {
     text-align: center;
     top: 75%;
     color: var(--orange);
-    background-color: rgba(43, 35, 161, 0.678);
+    background-color: rgba(121, 35, 161, 0.678);
     width: 100%;
 }
 
@@ -252,7 +252,7 @@ footer {
 
     .headline {
         grid-area: headline;
-        background-color: rgba(43, 35, 161, 0.678);
+        background-color: rgba(121, 35, 161, 0.678);
         position: unset;
     }
 

@@ -1,12 +1,12 @@
 const websites = [{
     name: "Camping Tents",
-    imgName: "chefsden.jpg",
+    imgName: "campTent.jpg",
     description: "Tent Info",
     technologies: "Camping"
 },
 {
     name: "Coolers",
-    imgName: "knockout.jpg",
+    imgName: "cooler.jpg",
     description: "Cooler Info",
     technologies: "Camping"
 },
