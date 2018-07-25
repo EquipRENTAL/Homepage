@@ -46,7 +46,8 @@ p {
 }
 
 img {
-    width: 100%;
+    width: 350px;
+    height: 350px;
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -69,22 +70,21 @@ footer {
 
 .section-1 {
     font-family: 'Zilla Slab', serif;;
-    background-color: rgb(38, 29, 117);
-    color: goldenrod;
+    background-color: white;
+    color: black;
     text-align: center;
 }
 
 .header-section {
     text-align: center;
     padding: 3rem 0;
-    border-bottom: solid goldenrod 1px;
+    border-bottom: solid white 1px;
 }
 
 .header-section h2 {
     display: inline-block;
     padding: 0;
-    /* background-color: rgba(20, 20, 20, 0.63); */
-    color: goldenrod;
+    color: white;
 }
 
 .section-body {
@@ -93,15 +93,7 @@ footer {
 }
 
 .section-2 {
-    background-color: rgba(221, 91, 51, 0.856);
-}
-
-.section-3 {
-    background-color: rgba(87, 87, 87, 0.856);
-}
-
-.section-4 {
-    background-color: rgb(133, 121, 81);
+    background-color: black;
 }
 
 .gallery>div {
@@ -191,7 +183,7 @@ footer {
     text-align: center;
     top: 75%;
     color: var(--orange);
-    background-color: rgba(121, 35, 161, 0.678);
+    background-color: rgba(92, 92, 92, 0.863);
     width: 100%;
 }
 
@@ -261,12 +253,12 @@ footer {
 
     .headline {
         grid-area: headline;
-        background-color: rgba(133, 10, 10, 0.726);
+        background-color: rgba(92, 92, 92, 0.863);
         position: unset;
     }
 
     .headline h1 {
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .gallery {

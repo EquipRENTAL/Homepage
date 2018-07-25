@@ -12,40 +12,20 @@ const websites = [{
 },
 {
     name: "Portable Grills",
-    imgName: "scrapoogle.jpg",
+    imgName: "portableBBQ.jpg",
     description: "Grill Info",
     technologies: "Cookware"
 },
 {
     name: "Foldable Chairs",
-    imgName: "freight-sys.jpg",
+    imgName: "foldingChair.jpg",
     description: "Chair Info",
     technologies: "Camping"
 }
 ];
 
+//"EquipRENT is so AWESOME!" -Satisfied Customer', '"I get to try things without having to buy things." -Thrill Seeker', '"My stuff does not have to collect dust anymore. Instead I get to collect money!" -Money Maker;
 
-
-const logos = [{
-    name: "Camping Gear",
-    img: "daves_logo_lighter.png"
-},
-{
-    name: "Cookware",
-    img: "jam.png"
-},
-{
-    name: "Tables and Chairs",
-    img: "Material Memories.jpg"
-},
-{
-    name: "Water Sports",
-    img: "rhe.png"
-},
-];
-
-
-const skills = ['"EquipRENT is so AWESOME!" -Satisfied Customer', '"I get to try things without having to buy things." -Thrill Seeker', '"My stuff does not have to collect dust anymore. Instead I get to collect money!" -Money Maker'];
 
 const imageLocationWebsite = "./assets/img/websites/";
 const imageLocationLogos = "./assets/img/logos/";
