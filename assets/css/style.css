@@ -66,10 +66,11 @@ section>div {
 .header-section,
 footer {
     color: white;
+    font-family: 'Cabin Sketch', cursive;
 }
 
 .section-1 {
-    font-family: 'Zilla Slab', serif;;
+    font-family: 'Cabin Sketch', cursive;
     background-color: white;
     color: black;
     text-align: center;
@@ -126,8 +127,8 @@ footer {
 }
 
 .description-div {
-    font-family: 'Raleway', sans-serif;
-    padding: .5rem 0;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.25em;
 }
 
 /* Parallax containers */
@@ -214,10 +215,16 @@ footer {
 
 .footer-wrapper {
     width: 100%;
+    height: 10vh;
+    border-top: 4px solid black;
     position: absolute;
     bottom: 0;
     text-align: center;
-    background-color: rgba(43, 35, 161, 0.678);
+    background-image: url('../../assets/img/backgrounds/wooded.jpg');
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    color: white;
 }
 
 /* Media Queries */
