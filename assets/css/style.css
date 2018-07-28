@@ -46,8 +46,8 @@ p {
 }
 
 img {
-    width: 350px;
-    height: 350px;
+    width: 380px;
+    height: 380px;
     border-radius: 5px;
     margin-bottom: 20px;
 }
@@ -112,7 +112,7 @@ footer {
     opacity: 1;
 }
 
-.webapp-name {
+.gear-name {
     font-weight: bold;
     text-align: center;
 }
@@ -225,6 +225,8 @@ footer {
     font-size: 1em;
     text-decoration: none;
     color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
 }
 
 /* Media Queries */
